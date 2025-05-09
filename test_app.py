@@ -19,7 +19,7 @@ def test_suma():
 
 def test_resta():
     assert resta(5, 2) == 3
-    assert resta(1, 1) == 1
+    assert resta(1, 1) == 0
 
 def test_multiplication():
     assert multiplication(3,3) == 9
